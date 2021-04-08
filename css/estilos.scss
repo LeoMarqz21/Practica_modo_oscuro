@@ -186,3 +186,16 @@ nav {
 		}
 	}
 }
+
+
+@media screen and (max-width:767px){
+	.grid{
+		display: grid;
+		grid-gap: 20px 10px;
+		grid-template-columns: 1fr;
+		padding: 20px 0;
+	}
+	nav .enlaces a{
+		margin-right: 10px;
+	}
+}
